@@ -6,10 +6,10 @@ public class Ex13 {
 		
 		PrintStream saida = System.out;
 		
-		String s = x.split(x," ");
+		String[] s = x.split(" ");
 		
-		for (int i = l-1; i > 0 ; i--) {
-			saida.print(x.charAt(i));
+		for (int i = 1; i > s.length ; i++) {
+			saida.print(s[i] + " ");
 		}
 	}
 }
