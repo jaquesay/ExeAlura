@@ -1,0 +1,3 @@
+Estou lendo arquivo
+Que pode ter msais linhas
+ou não
